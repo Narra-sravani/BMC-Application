@@ -7,7 +7,7 @@ const Homepage = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3001/data');
+      const response = await fetch('https://servicesbmc-47ed805c0931.herokuapp.com/data');
       const data = await response.json();
       setMessage(data.message);
     } catch (error) {
@@ -17,7 +17,7 @@ const Homepage = () => {
 
   const postDataToServer = async () => {
     try {
-      const response = await fetch('http://localhost:3001/post-data', {
+      const response = await fetch('https://servicesbmc-47ed805c0931.herokuapp.com/post-data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
