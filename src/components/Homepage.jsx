@@ -39,9 +39,9 @@ const Homepage = () => {
     <div>
       <button onClick={fetchData}>Fetch Data</button>
       {message && <p>{message}</p>}
-      <input type="text" value={postData} onChange={handleInputChange} /><br/>
+      <input type="text" value={postData} onChange={handleInputChange} /><br />
       <button onClick={postDataToServer}>Post Data</button>
-      {postResponse && <p>{postResponse}</p>} {/* Display response message */}
+      {postResponse && <p>{postResponse}</p>}
     </div>
   );
 };
