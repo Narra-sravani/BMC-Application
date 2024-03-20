@@ -1,8 +1,11 @@
 import React from 'react';
 import chefbmc from "../assets/chefbmc.jpg";
+import Navbar from './Navbar';
 
 const BmcMain = () => {
     return (
+       <>
+       <Navbar />
         <div className="container-fluid p-0">
             <div className="row m-0">
                 {/* First Half */}
@@ -48,6 +51,7 @@ const BmcMain = () => {
                 </div>
             </div>
         </div>
+       </>
     );
 };
 

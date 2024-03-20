@@ -17,7 +17,7 @@ const Navbar = () => {
                                 <a className="nav-link text-dark active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item me-2">
-                                <a className="nav-link text-dark" href="#">About</a>
+                                <a className="nav-link text-dark" href="/bookings" target="_blank">Dashboard</a>
                             </li>
                             <li className="nav-item me-2">
                                 <a className="nav-link text-dark" href="#">How it works</a>
@@ -32,7 +32,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <BmcMain />
         </div>
     );
 };

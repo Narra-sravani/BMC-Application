@@ -1,15 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Bookings from './Dashboard/Bookings';
+import BmcMain from './components/BmcMain';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <Router>
+      <div className="App">
+        {/* <Navbar /> */}
+        <Routes>
+          <Route path="/" element={<BmcMain />} />
+          <Route path="/bookings" element={<Bookings />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
