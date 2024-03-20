@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logobmc from "../assets/logobmc.jpg";
 import BmcMain from './BmcMain';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -17,7 +18,8 @@ const Navbar = () => {
                                 <a className="nav-link text-dark active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item me-2">
-                                <a className="nav-link text-dark" href="/bookings" target="_blank">Dashboard</a>
+                                {/* <a className="nav-link text-dark" href="/bookings" target="_blank">Dashboard</a> */}
+                                <Link to="/bookings" className="nav-link text-dark">Dashboard</Link>
                             </li>
                             <li className="nav-item me-2">
                                 <a className="nav-link text-dark" href="#">How it works</a>
