@@ -3,3 +3,41 @@
     max-height: calc(100vh - 200px); /* Adjust this value as needed */
     overflow-y: auto;
   }
+  .custom-input {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid gray;
+    outline: none; /* Remove the outline */
+  }
+
+  /* Style the input when it's focused */
+  .custom-input:focus {
+    border-color: gray; /* Change the border color to gray when focused */
+  }
+
+  .custom-tab {
+    transition: background-color 0.3s;
+  }
+  
+  .custom-tab:hover, .custom-tab:focus {
+    background-color: #C0C0C0; /* Secondary color on hover */
+  }
+  
+  .custom-tab.active {
+    background-color: #808080; /* Secondary color for active tab */
+  }
+  .custom-tab .nav-link {
+    color: #000; /* Default text color */
+  }
+  
+  .custom-tab .nav-link.active {
+    background: #3f3f3f; /* Change background color when tab is active */
+    color: #fff; /* Change text color when tab is active */
+  }
+  .custom-tab .nav-link.active {
+    background: #ccc !important; /* Change background color when tab is active */
+    color: #000 !important; /* Change text color when tab is active */
+  }
+  .small-font {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
