@@ -10,10 +10,10 @@ export const mockBookings = [
       cuisine: 'Multi Cuisine',
       paymentStatus: 'Succeeded',
       amount: '15000.00',
-      status: 'Booked'
+      status: 'Accepted'
     },
     {
-      bookingId: 'abcdef123456',
+      bookingId: '65d71a78179fb0e6e532ef53',
       customerInfo: 'John Doe\n1234567890\njohn.doe@example.com',
       requestedOn: '20-03-2024 09:45 AM',
       address: '123 Elm Street, Springfield, IL, USA',
@@ -22,10 +22,10 @@ export const mockBookings = [
       cuisine: 'Italian',
       paymentStatus: 'Pending',
       amount: '200.00',
-      status: 'Confirmed'
+      status: 'Booked'
     },
     {
-      bookingId: '9876543210',
+      bookingId: '65f48e7d179fb049631b01ba',
       customerInfo: 'Jane Smith\n0987654321\njane.smith@example.com',
       requestedOn: '22-03-2024 03:20 PM',
       address: '456 Oak Avenue, Seattle, WA, USA',
@@ -34,11 +34,10 @@ export const mockBookings = [
       cuisine: 'American',
       paymentStatus: 'Failed',
       amount: '75.50',
-      status: 'Cancelled'
+      status: 'Accepted'
     },
-    // Add 7 more static mock data objects
     {
-      bookingId: 'qwertyuioplkjhgfdsa',
+      bookingId: '65f13c0f179fb02f1f0a3bcb',
       customerInfo: 'Alice Johnson\n9876543210\nalice.johnson@example.com',
       requestedOn: '24-03-2024 08:00 AM',
       address: '789 Maple Avenue, New York, NY, USA',
@@ -50,7 +49,7 @@ export const mockBookings = [
       status: 'Booked'
     },
     {
-      bookingId: 'mnbvcxzlkjhgfdsa',
+      bookingId: '65f01f45179fb0fcded7d91f',
       customerInfo: 'Bob Williams\n1230987654\nbob.williams@example.com',
       requestedOn: '26-03-2024 11:30 AM',
       address: '321 Pine Street, Los Angeles, CA, USA',
@@ -59,10 +58,10 @@ export const mockBookings = [
       cuisine: 'Mexican',
       paymentStatus: 'Succeeded',
       amount: '100.00',
-      status: 'Booked'
+      status: 'Completed'
     },
     {
-      bookingId: 'poiuytrewqlkjhgfds',
+      bookingId: '65efe4b4179fb0fcded7d878',
       customerInfo: 'Emma Brown\n5678901234\nemma.brown@example.com',
       requestedOn: '28-03-2024 05:15 PM',
       address: '654 Cedar Avenue, Chicago, IL, USA',
@@ -71,10 +70,10 @@ export const mockBookings = [
       cuisine: 'French',
       paymentStatus: 'Pending',
       amount: '85.00',
-      status: 'Confirmed'
+      status: 'Ready'
     },
     {
-      bookingId: 'zxcvbnmlkjhgfdsaqw',
+      bookingId: '65d71a78179fb0e6e532ef53',
       customerInfo: 'Michael Wilson\n8901234567\nmichael.wilson@example.com',
       requestedOn: '30-03-2024 02:45 PM',
       address: '987 Birch Street, San Francisco, CA, USA',
@@ -83,10 +82,10 @@ export const mockBookings = [
       cuisine: 'Japanese',
       paymentStatus: 'Failed',
       amount: '120.00',
-      status: 'Cancelled'
+      status: 'Rejected'
     },
     {
-      bookingId: 'plmoknijbuhvygctfxrd',
+      bookingId: '65cb3ca2179fb0028746c803',
       customerInfo: 'Olivia Taylor\n2345678901\nolivia.taylor@example.com',
       requestedOn: '01-04-2024 10:00 AM',
       address: '741 Oakwood Drive, Houston, TX, USA',
@@ -95,7 +94,7 @@ export const mockBookings = [
       cuisine: 'Italian',
       paymentStatus: 'Succeeded',
       amount: '175.00',
-      status: 'Booked'
+      status: 'Ready'
     }
 ]
   
