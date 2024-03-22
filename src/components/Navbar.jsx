@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logobmc from "../assets/logobmc.jpg";
 import BmcMain from './BmcMain';
 import { Link } from 'react-router-dom';
+import "./navbarstyle.css";
 
 const Navbar = () => {
     return (
@@ -15,18 +16,18 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item me-2">
-                                <a className="nav-link text-dark active" aria-current="page" href="#">Home</a>
+                            <Link  className="nav-link text-dark">Home</Link>
+
                             </li>
                             <li className="nav-item me-2">
-                                {/* <a className="nav-link text-dark" href="/bookings" target="_blank">Dashboard</a> */}
                                 <Link to="/bookings" className="nav-link text-dark">Dashboard</Link>
                             </li>
                             <li className="nav-item me-2">
-                                <a className="nav-link text-dark" href="#">How it works</a>
+                            <Link  className="nav-link text-dark">How it works</Link>
                             </li>
                             <li className="nav-item me-2">
-                                <a className="nav-link text-dark" href="#">Testimonials</a>
-                            </li>
+                            <Link  className="nav-link text-dark">Testimonials</Link>
+                              </li>
                             <li className="nav-item">
                                 <button className='btn btn-primary' style={{ width: '100px', backgroundColor: '#BF4A27', borderRadius: "10px", border: "none" }}>Contact us</button>
                             </li>

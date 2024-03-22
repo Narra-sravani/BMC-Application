@@ -4,7 +4,7 @@ import { Dropdown } from 'bootstrap';
 import DatePicker from 'react-datepicker';
 import { mockBookings } from "../mockBookings";
 import FilterNav from "../Dashboard/FilterNav";
-import './style.css';
+import './style.css'; 
 
 const Bookings = () => {
   const [searchInput, setSearchInput] = useState('');
