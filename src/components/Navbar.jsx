@@ -1,9 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logobmc from "../assets/logobmc.jpg";
-import BmcMain from './BmcMain';
 import { Link } from 'react-router-dom';
-import "./navbarstyle.css";
 
 const Navbar = () => {
     return (

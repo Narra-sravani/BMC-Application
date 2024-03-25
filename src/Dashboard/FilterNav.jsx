@@ -5,9 +5,11 @@ import './style.css';
 
 function FilterNav({ handleFilterSelection }) {
   return (
+    <div>
+        <div>
     <Tabs
       id="uncontrolled-tab-example"
-      className="custom-tabs " 
+      className="custom-tabs" 
       onSelect={(key) => handleFilterSelection(key)}
     >
       <Tab eventKey="All" title="All" />
@@ -17,6 +19,11 @@ function FilterNav({ handleFilterSelection }) {
       <Tab eventKey="Completed" title="Completed" className="custom-tab" />
       <Tab eventKey="Rejected" title="Rejected" className="custom-tab" />
     </Tabs>
+    </div>
+    <div>
+        
+    </div>
+    </div>
   );
 }
 

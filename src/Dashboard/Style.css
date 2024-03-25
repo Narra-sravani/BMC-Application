@@ -51,7 +51,7 @@ table-container {
 }
 
 .custom-tabs .nav-link {
-  border-radius: 1px;
+  border-radius: 3px;
   border: 1px solid #ced4da;
   margin-right: -1px;
 }
@@ -65,7 +65,7 @@ table-container {
 
 .custom-tabs {
   width: 30.5em;
-  margin-left: 7px;
+  margin-left: 8px;
 
 }
 

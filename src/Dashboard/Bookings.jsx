@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Dropdown } from 'bootstrap';
-import DatePicker from 'react-datepicker';
 import { mockBookings } from "../mockBookings";
 import FilterNav from "../Dashboard/FilterNav";
 import './style.css'; 
