@@ -5,6 +5,7 @@ import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
 import Bookings from './Dashboard/Bookings';
 import BmcMain from './components/BmcMain';
+import Table from "./components/Table";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div className="App">
         {/* <Navbar /> */}
         <Routes>
-          <Route path="/" element={<BmcMain />} />
+          <Route path="/" element={<Table />} />
           <Route path="/bookings" element={<Bookings />} />
         </Routes>
       </div>

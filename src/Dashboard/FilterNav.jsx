@@ -20,8 +20,7 @@ function FilterNav({ handleFilterSelection }) {
       <Tab eventKey="Rejected" title="Rejected" className="custom-tab" />
     </Tabs>
     </div>
-    <div>
-        
+    <div>     
     </div>
     </div>
   );
