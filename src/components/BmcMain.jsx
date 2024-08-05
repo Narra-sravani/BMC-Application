@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 const BmcMain = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="container-fluid">
                 <div className="row mb-5">
                     {/* First Half */}
